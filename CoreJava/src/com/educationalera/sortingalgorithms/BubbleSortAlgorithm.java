@@ -13,6 +13,7 @@ public class BubbleSortAlgorithm {
     }
 
     public static  void bubbleSortAlgo(int[] unSortedArray){
+
             //Calculate the size of Array
             int l = unSortedArray.length;
 
@@ -24,32 +25,31 @@ public class BubbleSortAlgorithm {
                     }
                 }
             }
+
     }
 
     public static void main(String[] args){
 
-        int[] unSortedItemList = {3, 1, 15, -2, 2, 12, 20, 7, 13, 10};
-        int[] sortedItemList = new int[unSortedItemList.length];
+        int[] unSortedItemArray = {3, 1, 15, -2, 2, 12, 20, 7, 13, 10};
+        int[] sortedItemArray = new int[unSortedItemArray.length];
 
         //Displaying the Unsorted Array Elements
         System.out.print("Unsorted Array Elements are : ");
-        for(int i = 0 ; i < unSortedItemList.length ; i++ ){
-            System.out.print(unSortedItemList[i] + "\t");
+        for(int i = 0 ; i < unSortedItemArray.length ; i++ ){
+            System.out.print(unSortedItemArray[i] + "\t");
         }
 
-        bubbleSortAlgo(unSortedItemList);
+        bubbleSortAlgo(unSortedItemArray);
 
         //Copying Array Elements from Unsorted Array to Sorted Array
-        for(int i = 0 ; i < unSortedItemList.length ; i++ ){
-           sortedItemList[i] = unSortedItemList[i];
+        for(int i = 0 ; i < unSortedItemArray.length ; i++ ){
+           sortedItemArray[i] = unSortedItemArray[i];
         }
 
-
         //Displaying the Sorted Array Elements
-
         System.out.print("\nSorted Array Elements are : ");
-        for(int i = 0 ; i < unSortedItemList.length ; i++ ){
-            System.out.print(unSortedItemList[i] + "\t");
+        for(int i = 0 ; i < sortedItemArray.length ; i++ ){
+            System.out.print(sortedItemArray[i] + "\t");
         }
     }
 
