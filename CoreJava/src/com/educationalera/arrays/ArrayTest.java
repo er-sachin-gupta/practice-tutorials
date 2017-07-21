@@ -13,9 +13,16 @@ public class ArrayTest {
         double sum = 0.0d;
 
         //Iteration of the Array List Elements
-        //Printing the Array List Elements
+        //Printing the Array List Elements using Simple For Loop
+        System.out.print("Using For Loop : ");
         for(int i = 0 ; i < itemList.length ; i++ ){
             System.out.print(itemList[i] + " \t ");
+        }
+
+        //Printing the Array List Elements using Foreach Loop
+        System.out.print("\nUsing Foreach Loop : ");
+        for(double d : itemList){
+            System.out.print(d + " \t ");
         }
 
         //Calculating the Sum of Array List Elements
@@ -34,7 +41,7 @@ public class ArrayTest {
             }
         }
 
-        //Largest element from ArrayList
+        //Largest element from Array List
         System.out.println("Largest element from Array List is : " + bigElement);
     }
 }
