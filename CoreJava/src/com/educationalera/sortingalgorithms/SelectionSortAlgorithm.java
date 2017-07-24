@@ -1,7 +1,7 @@
 package com.educationalera.sortingalgorithms;
 
 /**
- * Created by Sachin Gupta on 21-07-2017.
+ * Created by Sachin Gupta.
  * Program to Implement Selection Sort Algorithm in Java
  */
 
