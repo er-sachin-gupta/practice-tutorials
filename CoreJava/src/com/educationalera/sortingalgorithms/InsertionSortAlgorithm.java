@@ -2,22 +2,21 @@ package com.educationalera.sortingalgorithms;
 
 /**
  * Created by Sachin Gupta on 21-07-2017.
+ * Program to Implement Insertion Sort Algorithm in Java
  */
 
 public class InsertionSortAlgorithm {
 
     public static int[] insertionSortAlgo(int[] array){
         //Calculation no. of elements in array
-        int j, l = array.length;
-        int temp;
-        for(int i = 1 ; i < l ; i++){
-            temp = array[i];
-            j = i;
-            while(j > 0 && temp < array[j-1]){
+        int i, j, l = array.length;
+        int tempVar;
+        for(i = 1 ; i < l ; i++){
+            tempVar = array[i];
+            for(j = i ; j > 0 && tempVar < array[j-1] ; j--){
                 array[j] = array[j-1];
-                j--;
             }
-            array[j] = temp;
+            array[j] = tempVar;
         }
         return array;
     }
@@ -36,7 +35,7 @@ public class InsertionSortAlgorithm {
         //Displaying the Sorted Array Elements
         System.out.print("\nSorted Array Elements are : ");
         for(int arr: sortedItemArray){
-            System.out.print(sortedItemArray[arr] + "\t");
+            System.out.print(arr + "\t");
         }
 
     }

@@ -2,6 +2,7 @@ package com.educationalera.sortingalgorithms;
 
 /**
  * Created by Sachin Gupta on 21-07-2017.
+ * Program to Implement Bubble Sort Algorithm in Java
  */
 
 public class BubbleSortAlgorithm {
