@@ -35,9 +35,6 @@ public class InsertionSortAlgorithm {
 
         //Displaying the Sorted Array Elements
         System.out.print("\nSorted Array Elements are : ");
-        /*for(int i = 0 ; i < sortedItemArray.length ; i++ ){
-            System.out.print(sortedItemArray[i] + "\t");
-        }*/
         for(int arr: sortedItemArray){
             System.out.print(sortedItemArray[arr] + "\t");
         }
