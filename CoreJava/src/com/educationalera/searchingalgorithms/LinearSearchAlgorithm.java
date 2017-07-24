@@ -37,5 +37,7 @@ public class LinearSearchAlgorithm {
         searchElement= scanner.nextInt();
 
         System.out.print("Element " + searchElement + " is located at : "  + linerSearchAlgo(itemArray, searchElement));
+
+        //Note : -1 will be returned if element will not be found  in array.
     }
 }
