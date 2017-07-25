@@ -10,19 +10,19 @@ import java.util.Scanner;
 public class BinarySearchAlgorithm {
 
     //Binary Search Algorithm Method
-    public int binarySearchAlgo(int[] array, int key){
+    public int binarySearchAlgo(int[] eArray, int key){
+
         int start = 0;
-        int end = array.length - 1;
+        int end = eArray.length - 1;
         while(start <= end){
             //Find the middle of array
             int middle = (start + end) / 2;
-            if(key == array[middle]){
-                return middle;
-            }
-            if(key < array[middle]){
+            if(key > eArray[middle]){
+                start = middle + 1;
+            }else if(key < eArray[middle]){
                 end = middle - 1;
             }else {
-                start = middle + 1;
+                return middle;
             }
         }
         return -1;
