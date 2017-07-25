@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * Created by Sachin Gupta.
  * A Simple Program to copy an array from another array.
+ * Intializing array from another array.
+ *  This is not a Recommended way to copy Array
  */
 
 public class CopyArray {
