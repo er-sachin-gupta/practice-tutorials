@@ -7,6 +7,9 @@ import java.util.Scanner;
  * Created by Sachin Gupta.
  * Program to implement Binary Search in Java
  */
+
+//Still needs to be fixed
+
 public class BinarySearchAlgorithm {
 
     //Binary Search Algorithm Method

@@ -7,6 +7,7 @@ import java.util.Arrays;
  * A Program to copy an array from another array using copyOfRange method of Arrays Class.
  * Arrays.copyOfRange() method either copies full array or partial array.
  */
+
 public class CopyArrayUsingCopyOfRangeMethod {
     public static void main(String[] args){
         String[] arr1 = {"Educational", "Era", "Dot", "Com"};
